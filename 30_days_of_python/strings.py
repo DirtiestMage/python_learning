@@ -37,3 +37,8 @@ print(str)
 #exercise 12:
 str = 'Python For Everyone'
 str = str.replace('Everyone','All')
+
+#exercise 18:
+str = 'Python For Everyone'
+str = ''.join(word[0] for word in str.split())
+print(str)
